@@ -3,11 +3,11 @@ import React, { ReactNode } from 'react';
 // ------------------------------
 
 type TProps = {
-    children?: ReactNode;
-}
+  children?: ReactNode;
+};
 
 // ------------------------------
 
-export const Button = ({ children }: TProps) => (
-    <button>{children}</button>
-);
+export function Button({ children }: TProps) {
+  return <button type="button">{children}</button>;
+}

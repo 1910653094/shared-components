@@ -1,7 +1,7 @@
 {
   "name": "@1910653094/shared-components",
   "version": "0.1.0",
-  "description": "project to share react components accross my github apps",
+  "description": "project to share react components across my github apps",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -13,6 +13,7 @@
     "@types/react-dom": "^18.0.5",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.7.2",
     "web-vitals": "^2.1.4"
@@ -50,5 +51,5 @@
   "bugs": {
     "url": "https://github.com/1910653094/shared-components/issues"
   },
-  "homepage": "https://github.com/1910653094/shared-components#readme"
+  "homepage": "."
 }

@@ -8,7 +8,7 @@ type TProps = {
 
 // -------------------------------------
 
-export default function Button({ children }: TProps) {
+export function Button({ children }: TProps) {
     return (
         <button>{children}</button>
     );

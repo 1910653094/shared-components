@@ -1,15 +1,13 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 
-// -------------------------------------
+// ------------------------------
 
 type TProps = {
-    children?: React.ReactNode;
+    children?: ReactNode;
 }
 
-// -------------------------------------
+// ------------------------------
 
-export function Button({ children }: TProps) {
-    return (
-        <button>{children}</button>
-    );
-}
+export const Button = ({ children }: TProps) => (
+    <button>{children}</button>
+);

@@ -1,6 +1,7 @@
 {
   "name": "@1910653094/shared-components",
   "version": "0.1.0",
+  "description": "project to share react components accross my github apps",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -39,5 +40,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1910653094/shared-components.git"
+  },
+  "author": "Fabian Peyrat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1910653094/shared-components/issues"
+  },
+  "homepage": "https://github.com/1910653094/shared-components#readme"
 }

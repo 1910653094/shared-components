@@ -1,6 +1,6 @@
 {
   "name": "@1910653094/shared-components",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "project to share react components across my github apps",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",

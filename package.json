@@ -1,6 +1,6 @@
 {
   "name": "@1910653094/shared-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -16,11 +16,16 @@
     "type": "git",
     "url": "git+https://github.com/1910653094/shared-components.git"
   },
+  "files": ["dist"],
+  "typings": "dist/index.d.ts",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/1910653094/shared-components/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "homepage": "https://github.com/1910653094/shared-components#readme",
   "devDependencies": {

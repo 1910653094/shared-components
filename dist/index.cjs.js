@@ -1,15 +1,16 @@
+'use strict';
+
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const React = require('react');
+var React = require('react');
 
-function _interopDefaultLegacy(e) {
-  return e && typeof e === 'object' && 'default' in e ? e : { default: e };
-}
+function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
-const React__default = /* #__PURE__ */ _interopDefaultLegacy(React);
+var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
 
 // ------------------------------
-const Button = ({ children }) =>
-  React__default.default.createElement('button', null, children);
+function Button({ children }) {
+    return React__default["default"].createElement("button", { type: "button" }, children);
+}
 
 exports.Button = Button;

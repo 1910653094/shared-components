@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d66dec2-a43d-469e-8b65-24b30e0ac967" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Calendar/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Calendar/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Calendar/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layouts/Flex/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layouts/Grid/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layouts/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/colors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Button/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components/Button/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.cjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.cjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.esm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/src/component-lib/components/Button/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/playground/src/component-lib/components/Button/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/src/component-lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/playground/src/component-lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,14 +27,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBowerSettings">
+    <bower-package value="" />
+    <bower.json value="" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -43,8 +61,8 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\fabian\JetBrains\WebStormProjects\shared-components\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
-    <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\WebStorm 2021.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
+    <property name="ts.external.directory.path" value="D:\fabian\JetBrains\WebStormProjects\shared-components\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -64,6 +82,10 @@
       <workItem from="1653595713302" duration="5023000" />
       <workItem from="1653602488156" duration="1000" />
       <workItem from="1653731102105" duration="224000" />
+      <workItem from="1653732544817" duration="191000" />
+      <workItem from="1654339856968" duration="3284000" />
+      <workItem from="1654970263158" duration="4282000" />
+      <workItem from="1655465470539" duration="31000" />
     </task>
     <servers />
   </component>

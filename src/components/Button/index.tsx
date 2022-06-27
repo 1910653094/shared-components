@@ -1,13 +1,21 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
+import styled from 'styled-components';
+import { TWithChildren } from '../../types';
 
 // ------------------------------
 
 type TProps = {
-  children?: ReactNode;
+  onClick?: () => {};
 };
+
+const StyledButton = styled.button``;
 
 // ------------------------------
 
-export function Button({ children }: TProps) {
-  return <button type="button">{children}</button>;
+export function Button({ children, onClick }: TWithChildren<TProps>) {
+  return (
+    <StyledButton type="button" onClick={onClick}>
+      {children}
+    </StyledButton>
+  );
 }
